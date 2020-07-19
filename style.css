@@ -1,0 +1,118 @@
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #3abee6;
+}
+.navbar {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#top-section{
+    padding-top: 50px;
+}
+
+.top-row {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 20%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ticket-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #242442;
+    line-height: 1.5;
+}
+
+.pricing, .cancellation, .navbar {
+    color: #D1CAC3;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.signup{
+    background-color: #3abee6;
+    border: none;
+    color: #fff!important;
+}
+
+.signup:hover {
+    background-color: #7ad8e0;
+}
+
+.middle-contents {
+    background-image: url(images/bg.jpg);
+    height: 800px;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container{
+    padding: 0;
+}
+
+.flight-info {
+    background-color: #fff;
+    padding: 30px;
+    margin: auto 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+}
+
+#middle-section{
+    padding-bottom: 50px;
+    
+}
+
+.search-section{
+    display: flex;
+    margin-top: 30px;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.form-button {
+    background-color:#ff9a00;
+}
+
+.form-button:hover{
+    background-color: #3ec1d3;
+    border: none !important;
+}
+
+.form-button:focus{
+    box-shadow: none !important;
+}
+
+.input-group-text{
+    background-color: #fff;
+}
+
+.form-control {
+    border:none;
+}
+
+.input-group-text {
+    border-radius: 0;
+}
+
+::placeholder {
+    font-size: 1rem !important;
+    font-family: 'Mulish', sans-serif !important;
+}
+
+.form-control:focus{
+    border: none!important;
+    box-shadow: none;
+}
